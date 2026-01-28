@@ -1,4 +1,4 @@
-import logoSollut from "@/logosoll.png";
+import quemsomos from "@/quemsomos.jpeg";
 import grafico from "@/grafico.png";
 
 export default function AboutOffice() {
@@ -38,7 +38,7 @@ export default function AboutOffice() {
         {/* Imagem */}
         <div className="relative z-10 md:w-1/2 flex justify-center">
           <img
-            src={logoSollut}
+            src={quemsomos}
             alt="Contadores do escritório"
             className="w-[460px] md:w-[520px] rounded-2xl object-cover shadow-2xl"
           />

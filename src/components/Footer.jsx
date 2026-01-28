@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from "@/logosoll.png";
 import { FaInstagram, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
         {/* Logo + Redes Sociais */}
         <div className="flex flex-col items-start md:items-center">
           <img 
-            src="/src/imgs/logosoll.png" 
+            src={logo} 
             alt="Logo" 
             className="h-20 mb-4"
           />
@@ -56,7 +57,7 @@ const Footer = () => {
         <div className="flex flex-col justify-center items-center md:items-end text-gray-600 text-center md:text-right">
           <p className="mb-2">Contabilidade moderna e confiável</p>
           <p className="text-sm">
-            © {new Date().getFullYear()} Solutt Contabilidade · Todos os direitos reservados
+            © {new Date().getFullYear()} Solutt Contabilidade <br /> Todos os direitos reservados
           </p>
         </div>
       </div>

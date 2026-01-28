@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import logo from "@/logosoll.png";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +26,7 @@ export default function Header() {
           <div className="flex items-center">
             <a href="/" className="flex items-center">
               <img
-                src="/src/imgs/logosoll.png"
+                src={logo}
                 alt="Sollut"
                 className="h-16 md:h-20"
               />
